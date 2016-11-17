@@ -1,0 +1,14 @@
+Ex 1
+
+1) 	Les entités sont les suivantes : 	Client --> Nom, Prénom, Adresse
+	
+										Comptes --> Soldes
+	
+										Opérations --> Retrait, Dépôt, Date, Montant
+
+
+2) Les associations sont : 		Client < - Possède - > Comptes
+									0 - N -->    <-- 1 - N
+
+								Comptes <- Effectue -> Opérations
+									0 - N -->    <-- 1 - 1

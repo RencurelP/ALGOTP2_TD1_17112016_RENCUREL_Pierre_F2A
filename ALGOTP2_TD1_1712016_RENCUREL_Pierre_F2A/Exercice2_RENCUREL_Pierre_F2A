@@ -1,0 +1,14 @@
+Ex 2
+
+1) 	Les entités sont les suivantes : 	Produits --> Référence, Libelle, Prix
+	
+										Clients --> Nom, Prénom, Adresse
+
+										Commandes --> Date, Adresse de Livraison, Produits, Quantité produit
+
+
+2) Les associations sont : 		Clients <- passe -> Commandes
+									0 - N -->   <-- 1 - 1
+
+								Commandes <- inclus -> Produits
+									0 - N -->   <-- 0 - N
